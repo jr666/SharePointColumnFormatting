@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "debugMode": true,
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "a",
+      "txtContent": "📁 View Documents",
+      "style": {
+        "text-decoration": "underline",
+        "color": "inherit",
+        "font-size": "inherit",
+        "font-weight": "inherit"
+      },
+      "attributes": {
+        "class": "sp-field-quickAction sp-field-iconRightAligned",
+        "color": "blue",
+        "target": "_blank",
+        "href": "='https://thepoweraddicts.sharepoint.com/sites/HSE/Incident%20Files/Forms/AllItems.aspx?FilterField1=IncidentID&FilterValue1=' + [$ID] + '&FilterType1=Number'"
+      }
+    }
+  ]
+}
